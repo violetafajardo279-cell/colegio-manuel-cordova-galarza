@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Documentos Institucionales</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+    padding-top:90px;
+}
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background:#003366;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+    z-index:1000;
+}
+
+.logo{
+    color:white;
+    font-size:28px;
+    font-weight:bold;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:600;
+}
+
+nav a:hover{
+    color:#ffd700;
+}
+
+.titulo{
+    text-align:center;
+    margin:40px 0;
+    color:#003366;
+    font-size:3rem;
+}
+
+.contenedor{
+    max-width:1200px;
+    margin:auto;
+    padding:20px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+}
+
+.tarjeta{
+    background:white;
+    border-radius:20px;
+    padding:25px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    transition:.3s;
+    text-align:center;
+}
+
+.tarjeta:hover{
+    transform:translateY(-10px);
+}
+
+.tarjeta h2{
+    color:#003366;
+    margin-bottom:15px;
+}
+
+.tarjeta p{
+    margin-bottom:20px;
+}
+
+.boton{
+    display:inline-block;
+    padding:12px 25px;
+    background:#003366;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+}
+
+.boton:hover{
+    background:#0055aa;
+}
+
+footer{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+    Manuel Córdova Galarza
+</div>
+
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="nosotros.html">Nosotros</a>
+    <a href="eventos.html">Eventos</a>
+    <a href="documentos.html">Documentos</a>
+    <a href="contacto.html">Contacto</a>
+</nav>
+
+</header>
+
+<h1 class="titulo">📄 Descarga de Documentos</h1>
+
+<div class="contenedor">
+
+<div class="tarjeta">
+    <h2>📊 Solicitud de Mejora de Notas con Refuerzo</h2>
+    <p>Descargue el formulario oficial para solicitar mejora de calificaciones.</p>
+    <a href="SOLICITUD_DEL_REPRESENTANTE_LEGAL_PARA_MEJORA_CON_REFUERZO_ACADEMICO.docx" download class="boton">
+        Descargar PDF
+    </a>
+</div>
+
+<div class="tarjeta">
+    <h2>📝 Mejora de notas directa </h2>
+    <p>Documento para trámites y solicitudes dirigidas a la institución.</p>
+    <a href="SOLICITUD_DEL_REPRESENTANTE_LEGAL_PARA_MEJORA_DIRECTA_DE_CALIFICACION_DE_EVALUACIONES_SUMATIVAS.docx" download class="boton">
+        Descargar PDF
+    </a>
+</div>
+
+<div class="tarjeta">
+    <h2>🎓 Solicitud General</h2>
+    <p>Formato de solicitud de certificado estudiantil.</p>
+    <a href="SOLICITUD_GENERAL.docx" download class="boton">
+        Descargar PDF
+    </a>
+</div>
+
+<div class="tarjeta">
+    <h2>📚 Carta de Acuerdos y Compromisos</h2>
+    <p>Formato para justificar faltas o permisos estudiantiles.</p>
+    <a href="2025-2026_ACTA_DE_ACUERDOS_Y_COMPROMISOS.docx" download class="boton">
+        Descargar PDF
+    </a>
+</div>
+
+</div>
+
+<footer>
+© 2026 Unidad Educativa Manuel Córdova Galarza
+</footer>
+
+</body>
+</html>
